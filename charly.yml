@@ -1,7 +1,7 @@
 version: 2026.232.0520
 chrome-devtools-mcp:
     candy:
-        version: 2026.144.1443
+        version: 2026.243.0100
         description: |
             Chrome DevTools MCP server exposes browser-automation tools over Streamable HTTP on port 9224
             Installs the chrome-devtools-mcp Node.js server (npm) and the Python
@@ -12,8 +12,8 @@ chrome-devtools-mcp:
             live endpoint answers MCP pings and advertises the browser-automation
             tool catalog (navigate_page, take_screenshot, ...).
         require:
-            - '@github.com/opencharly/layer-nodejs:v2026.235.2056'
-            - '@github.com/opencharly/layer-supervisord:v2026.235.2056'
+            - '@github.com/opencharly/layer-nodejs:v2026.239.1624'
+            - '@github.com/opencharly/layer-supervisord:v2026.240.0121'
             # plugin-mcp is the OUT-OF-TREE plugin that serves the `mcp:` check verb
             # (the github.com/modelcontextprotocol/go-sdk MCP CLIENT lives there, not in
             # charly's core check surface). This candy AUTHORS `mcp:` checks, so requiring
